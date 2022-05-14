@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.profile_img{
+  position: absolute;
+  background-image: url(profileimg.svg);
+  width: 10em;
+  height: 10em;
+  background-repeat: no-repeat;
+  left: 40em;
+  top: 7em;
+  
+}
+.name{
+  position: absolute;
+  width:fit-content;
+  left: 38.5em;
+  top: 20.5em;
+}
+.surename{
+  position: absolute;
+  width:fit-content;
+  left: 43em;
+  top: 20.5em;
+}
+.roll_no{
+  position: absolute;
+  width:fit-content;
+  left: 40.5em;
+  top: 18em;
+}
+.table_1{
+
+  position: absolute;
+  top : 25em;
+  left: 25em;
+  width: 50em;
+}
+#input_width{
+  width:5em;
+}
